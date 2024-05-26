@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
@@ -17,6 +18,7 @@ function Footer() {
         <div className="footer_bottom_right max-[700px]:mt-10 max-[700px]:w-3/5 ">
           <p>Designed and Developed By</p>
           <h3>OrbTech Agency</h3>
+          <Link href={"/edit"}>Edit Site</Link>
         </div>
       </div>
     </div>
