@@ -2,6 +2,8 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Info from "@/components/Info";
 import Gallery from "@/components/Gallery";
+import NewGallery from "@/components/NewGallery";
+
 import Resume from "@/components/Resume";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -122,7 +124,8 @@ export default function Home() {
       </div>
       <Navbar></Navbar>
       <Info></Info>
-      <Gallery></Gallery>
+      <NewGallery></NewGallery>
+      {/* <Gallery></Gallery> */}
       <Resume></Resume>
       <Contact></Contact>
       <Footer></Footer>
