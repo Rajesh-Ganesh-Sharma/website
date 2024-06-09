@@ -1,8 +1,13 @@
+"use client";
+
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
 import React from "react";
+import gPic1 from "../../../../public/assets/gallery/1.jpg";
+import heroImg from "../../../../public/assets/home_heroImage.png";
+import Image from "next/image";
 
 function Gallery_Pics() {
   const imgList = [
@@ -46,11 +51,14 @@ function Gallery_Pics() {
             "linear-gradient(rgba(6, 44, 48, 0.53),rgba(6, 44, 48, 0.53)),url(assets/Home_background.png)",
         }}
       >
+        {/* {heroImg} */}
+        {/* <Image src={heroImg} alt="hero image"></Image> */}
         <img
-          src="../../assets/home_heroImage.png"
+          src="https://rajeshsharma2597.github.io/new-website/assets/home_heroImage.png"
           alt=""
           className="hero_image"
         />
+
         <div className="home_content">
           <div className="home_right">
             <div className="home_content_header">
