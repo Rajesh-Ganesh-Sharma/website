@@ -45,7 +45,9 @@ function NewGallery() {
           </div>
         </div>
         {/* <h1>View Gall/</h1> */}
-        <Link href={"/gallery"}>View Gallery</Link>
+        <Link href={"/gallery"} className="info_readMore">
+          View Gallery
+        </Link>
       </div>
       <div className="gallery_bottom">
         <img

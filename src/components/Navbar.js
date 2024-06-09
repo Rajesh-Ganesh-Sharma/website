@@ -3,11 +3,11 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 const navigationLinks = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#info" },
-  { name: "Gallery", href: "/gallery/pics" },
-  { name: "Resume", href: "#resume" },
-  { name: "Contact", href: "#contact" },
+  { name: "Home", href: "/" },
+  { name: "About", href: "/info" },
+  { name: "Gallery", href: "/gallery" },
+  { name: "Resume", href: "/resume" },
+  { name: "Contact", href: "/contact" },
 ];
 function Navbar() {
   const [open, setOpen] = useState(false);

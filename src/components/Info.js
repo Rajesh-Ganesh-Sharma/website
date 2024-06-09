@@ -11,7 +11,7 @@ function Info() {
   return (
     <div
       id="info"
-      className="flex justify-evenly items-center max-lg:flex-col max-lg:space-y-16 py-[100px]"
+      className="flex justify-evenly items-center max-lg:flex-col max-lg:space-y-16 py-[100px]  min-h-screen"
     >
       <div className="info_content_image_backgound">
         <img src="assets/info_image.png" alt="" />

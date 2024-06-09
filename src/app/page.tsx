@@ -135,8 +135,9 @@ export default function Home() {
 {
   /*
 ->Correct Navbar
+  -> add Links for seperate page
 ->Correct Gallery
--> Correct Footer
+  -> Style View more Button
 -> Check Responsivenesss
 
 

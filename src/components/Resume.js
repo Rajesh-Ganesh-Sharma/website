@@ -2,7 +2,7 @@ import React from "react";
 
 function Resume() {
   return (
-    <div id="resume" className=" mt-16">
+    <div id="resume" className=" my-16 ">
       <div className=" flex justify-evenly max-lg:flex-col  max-lg:items-center ">
         {/* Resume Left */}
         <div>
