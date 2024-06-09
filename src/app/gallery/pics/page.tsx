@@ -147,21 +147,24 @@ function Gallery_Pics() {
             </div>
           </div>
         </div>
-
-        <img src="assets/home_vector.svg" alt="" />
+        <div className=" w-full h-28  bg-orange-300"></div>
       </div>
 
       <Navbar></Navbar>
 
       {/* Gallery_pic Starts Here */}
-      <div className=" flex flex-col">
+      <div className=" flex flex-col items-center">
         {imgList.map((e) => {
           return (
-            <div className=" my-10 flex  justify-center " key={e}>
+            <div className=" my-10 flex  justify-center w-2/5  " key={e}>
               {e == "contact" ? (
                 <Contact></Contact>
               ) : (
-                <img src={`assets/gallery/${e}.jpg`} alt="" />
+                <img
+                  src={`https://rajeshsharma2597.github.io/new-website/assets/gallery/${e}.jpg`}
+                  className=" rounded-xl"
+                  alt=""
+                />
               )}
             </div>
           );
