@@ -147,13 +147,8 @@ function Gallery_Pics() {
             </div>
           </div>
         </div>
-        <div
-          className="home_bottom"
-          style={{
-            backgroundImage:
-              "url(https://rajeshsharma2597.github.io/new-website/assets/home_vector.svg)",
-          }}
-        ></div>
+
+        <img src="assets/home_vector.svg" alt="" />
       </div>
 
       <Navbar></Navbar>
