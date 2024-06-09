@@ -149,7 +149,10 @@ function Gallery_Pics() {
         </div>
         <div
           className="home_bottom"
-          style={{ backgroundImage: "url(/assets/home_Vector.svg)" }}
+          style={{
+            backgroundImage:
+              "url(https://rajeshsharma2597.github.io/new-website/assets/home_vector.svg)",
+          }}
         ></div>
       </div>
 
