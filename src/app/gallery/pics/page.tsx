@@ -46,7 +46,11 @@ function Gallery_Pics() {
             "linear-gradient(rgba(6, 44, 48, 0.53),rgba(6, 44, 48, 0.53)),url(assets/Home_background.png)",
         }}
       >
-        <img src="/assets/home_heroImage.png" alt="" className="hero_image" />
+        <img
+          src="../../assets/home_heroImage.png"
+          alt=""
+          className="hero_image"
+        />
         <div className="home_content">
           <div className="home_right">
             <div className="home_content_header">
