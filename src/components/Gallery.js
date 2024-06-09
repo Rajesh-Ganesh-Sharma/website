@@ -1,7 +1,7 @@
 import React from "react";
 
 function Gallery() {
-  const tempArray = [1, 2, 3, 4, 5, 6, 7, 8];
+  const tempArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
   return (
     <div>
       <div id="gallery">
@@ -10,7 +10,7 @@ function Gallery() {
             return (
               <div key={i} className=" flex justify-center">
                 <img
-                  src={`assets/gallery/gallery_pic${e}.png`}
+                  src={`assets/gallery/${e}.jpg`}
                   className="gallery_image items-center"
                   alt=""
                 />

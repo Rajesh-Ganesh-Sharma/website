@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 const navigationLinks = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#info" },
-  { name: "Gallery", href: "#gallery" },
+  { name: "Gallery", href: "/gallery/pics" },
   { name: "Resume", href: "#resume" },
   { name: "Contact", href: "#contact" },
 ];
