@@ -151,11 +151,7 @@ function Gallery_Pics() {
               {e == "contact" ? (
                 <Contact></Contact>
               ) : (
-                <img
-                  src={`/assets/gallery/${e}.jpg`}
-                  alt=""
-                  className=" w-2/5 rounded-xl "
-                />
+                <img src={`assets/gallery/${e}.jpg`} alt="" />
               )}
             </div>
           );
