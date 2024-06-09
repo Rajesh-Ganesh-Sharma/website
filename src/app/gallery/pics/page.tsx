@@ -147,7 +147,7 @@ function Gallery_Pics() {
       <div className=" flex flex-col">
         {imgList.map((e) => {
           return (
-            <div className=" my-10 flex  justify-center ">
+            <div className=" my-10 flex  justify-center " key={e}>
               {e == "contact" ? (
                 <Contact></Contact>
               ) : (
