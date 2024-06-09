@@ -55,7 +55,7 @@ function Contact() {
               </Link>
             </div>
             <img
-              src="/assets/contact_image.png"
+              src="assets/contact_image.png"
               alt=""
               className="footer_image  max-[440px]:w-4/5"
             />
