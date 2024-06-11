@@ -124,7 +124,7 @@ function Gallery_Page() {
       <Navbar></Navbar>
 
       {/* Gallery_pic Starts Here */}
-      <div className=" flex justify-evenly items-center mt-28">
+      <div className=" flex justify-evenly items-center mt-28 max-[670px]:flex-col max-[670px]:space-y-6">
         <Link
           href={"/gallery/pics"}
           className=" h-[340px] w-[340px] max-[800px]:h-[300px] max-[800px]:w-[300px] max-[400px]:w-[200px] max-[400px]:h-[200px] rounded-full  bg-gradient-to-b hover:from-white from-sky-400 hover:to-white to-blue-500 flex items-center justify-center font-semibold text-white hover:text-black text-5xl max-sm:text-[50px] max-[473px]:text-[40px] max-[400px]:text-4xl "
